@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import AudioPlayer from './AudioPlayer';
+import AudioPlayer from './AudioFiles/AudioPlayer';
 
 const InstrumentAudio = ({instrumentName, notes}) => {
 	const[instrumentPlayer,setInstrumentPlayer] = useState(null);
@@ -34,4 +34,3 @@ const InstrumentAudio = ({instrumentName, notes}) => {
 };
 
 export default InstrumentAudio;
-	 

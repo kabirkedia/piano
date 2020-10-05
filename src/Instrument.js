@@ -1,7 +1,7 @@
 import React, { Fragment ,useState,useEffect,Component } from 'react';
-import {getKeyboardShortcutsForNote} from "./getKeyboardShortcutsForNote";
-import isAccidentalNote from './isAccidentalNote';
-import getNotesBetween from './getNotesBetween';
+import {getKeyboardShortcutsForNote} from "./NoteUtils/getKeyboardShortcutsForNote";
+import isAccidentalNote from './NoteUtils/isAccidentalNote';
+import getNotesBetween from './NoteUtils/getNotesBetween';
 import InstrumentAudio from './InstrumentAudio';
 
 const isRegularKey = event => {
@@ -101,10 +101,3 @@ const Instrument =({
 };
 
 export default Instrument;
-
-
-
-
-
-
-

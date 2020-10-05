@@ -1,4 +1,4 @@
-import NOTES from './note';
+import NOTES from '../AudioFiles/note';
 
 export default function getNotesBetween(startNote, endNote) {
 	const startingNode = NOTES.indexOf(startNote);
